@@ -57,5 +57,13 @@
 		
 		<finalName>spring-boot-docker</finalName>
 	</build>
+	
+	<distributionManagement>
+		<repository>
+			<id>repsy</id>
+			<name>My Private Maven Repository on Repsy</name>
+			<url>https://repo.repsy.io/mvn/nkeerthikumar/my-maven-repo</url>
+		</repository>
+	</distributionManagement>
 
 </project>
