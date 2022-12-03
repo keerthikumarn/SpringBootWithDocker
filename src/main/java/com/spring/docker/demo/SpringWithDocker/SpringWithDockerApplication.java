@@ -2,6 +2,7 @@ package com.spring.docker.demo.SpringWithDocker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringWithDockerApplication {
 
-	@GetMapping("/message")
+	@GetMapping("/message") 
 	public String printMessage() {
 		return "Welcome to the world of spring boot with Docker !!";
 	}
