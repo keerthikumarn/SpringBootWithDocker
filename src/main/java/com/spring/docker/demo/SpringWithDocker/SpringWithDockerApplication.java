@@ -12,6 +12,7 @@ public class SpringWithDockerApplication {
 
 	@GetMapping("/message") 
 	public String printMessage() {
+	        System.out.println("Message is on its way....");
 		return "Welcome to the world of spring boot with Docker !!";
 	}
 
