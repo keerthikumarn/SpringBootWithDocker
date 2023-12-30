@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.spring.docker.demo</groupId>
 	<artifactId>SpringBootWithDocker</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>SpringBootWithDocker</name>
 	<description>Demo project for Spring Boot with docker</description>
 
